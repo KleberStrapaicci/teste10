@@ -1,16 +1,14 @@
 {
   "name": "my-v0-project",
-  "version": "0.1.0",
-  "homepage": "https://KleberStrapaicci.github.io/teste10",
+  "version": "0.1.0","homepage": "https://KleberStrapaicci.github.io/123",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
